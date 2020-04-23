@@ -46,7 +46,7 @@ const LoginBox = () => {
   return (
     <div className='login-container'>
       <p>Already have an account?</p>
-      <span>Sign in below</span>
+      <span>Login below</span>
       <form onSubmit={handleSubmit}>
         <FormInput
           handleChange={handleChange}
@@ -63,7 +63,7 @@ const LoginBox = () => {
           label='Password'
         />
         <Button type='submit' mt1 primary>
-          Sign Up
+          Login
         </Button>
       </form>
     </div>
